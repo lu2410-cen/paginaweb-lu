@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>MENU CSS</title>
+	<link rel="stylesheet" type="text/css" href="menucss.css"><!-linea para mandar a llamar archivo css ->
+</head>
+<body>
+	<div class="barramenu">
+		<a href="menucss.html">HOME</a>
+		<a href="www.instagram.com">INSTAGRAM</a>		<!-Declaramos los otros enlaces como instagram ->
+		<div class="menudesplegable">
+			<button class="botondesplegar" onclick="mostrar()">CATEGORIAS</button>
+			<div class="contenidodesplegable" id="Mi_menu">
+				<a href="css1.html">LINK 1</a>
+				<a href="uno.html">LINK 2</a>  <!-los a son los que seleccionaremos para  ->
+				<a href="dos.html">LINK 3</a>	<!- Opciones->
+			</div>
+		</div>
+    	<div class="menudesplegable">
+    	<button class="botondesplegar" onclick="mostrar2()">CATEGORIAS</button>
+			<div class="contenidodesplegable" id="Mi_menu2">
+			<a href="tres.html">LINK 1</a>
+			<a href="cuatro.html">LINK 2</a>	<!-Los a son selecionados para  que se desplieguen o no las->
+			<a href="#">LINK 3</a>				<!-Opciones ->
+    		</div>
+    		<script type="text/javascript" src="menucss.js"></script>	<!-Se llama el documento js->
+		</div>
+	</div>
+
+</body>
+</html>			<!-Fin del proyecto HTML->

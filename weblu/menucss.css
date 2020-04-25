@@ -1,0 +1,68 @@
+.barramenu{
+	overflow: hidden;			/*Se emodifica la clase menu */
+	background-color: rgba(255,111,97,5);
+	font-family: sans-serif;
+}
+.barramenu a{
+
+	float: left;
+	font-size: 16px;
+	color: white;			/*Se emodifica la clase barra del hipernlaces */
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+
+}
+.menudesplegable{
+	float: left;		/*Se emodifica la clase de los menus desplegables*/
+	overflow: hidden;
+
+}
+.menudesplegable,.botondesplegar{
+	cursor: pointer;
+	font-size: 16px;
+	border: none;
+	outline: none;				/*Se emodifican las clases menu desplegables y botones de desplegar */
+	color: white;
+	padding: 7px 16px;
+	background-color: rgba(0,255,255,0.2);
+	font-family: inherit;
+	margin: 0;
+
+}
+.barramenu a:hover, .menudesplegable:hover,.botondesplegar:hover{
+	background-color: rgba(181,126,220,5);					/*Se emodifica la clase barra menu de hipernlaces*/
+
+}
+.contenidodesplegable{
+display: none;
+position: absolute;
+background-color: #F9F9F9;				/*Se modifica la clase de contenidodeplegable*/
+min-width: 160px;
+box-shadow: 0px 8px 16px 0px rgba(0,0,0,5);
+z-index: 1;
+
+}
+
+.contenidodesplegable a{
+
+	float: none;
+	color: black;
+	padding: 12px 16px;					
+    text-decoration: none;			/*Se modifica la clase de contenidodeplegable en los hipernlaces*/
+    display: block;
+    text-align: center;
+}
+
+.contenidodesplegable a:hover{
+	background-color: #ddd;
+
+}
+.mostrar{							/*Se modificara la clase mostrar*/
+	display: block;
+}
+html{
+	background: url('fondo.jpg')no-repeat;
+	min-height: 100%;								/*Se modificara todo el documento html*/
+	background-size: cover;
+}

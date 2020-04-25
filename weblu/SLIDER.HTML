@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Fotografia</title>
+	<link rel="stylesheet" type="text/css" href="SLIDER.CSS">
+	<!- son etiquetas HTML que se incorporan en el encabezado de una página web y que resultan invisibles para un visitante normal->
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+</head>
+
+<!-INICIO DEL CODIGO HTML->
+<body>
+
+
+<h1 align="center">Mi galeria</h1>
+<h2 align="center" >Tengo una pequeña pasi&oacute;n por la fotograf&iacute;a, he aqu&iacute; unas im&aacute;genes que yo misma he tomado.</h2><br>
+<div class="slideshow-container">
+	
+<!-PRIMERA DIAPOSITIVA ->
+<div class="mySlides fade">
+  <div class="numbertext">1 / 6</div>
+  <img src="uno.jpg" style="width:100%">
+  
+  	<!-TEXTO QUE APARECERA DEBAJO DE LA IMAGEN->
+</div>
+<!-SEGUNDA DIAPOSITIVA->
+<div class="mySlides fade">
+  <div class="numbertext">2 / 6</div>
+  <img src="dos.jpg" style="width:100%">
+  
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">3 / 6</div>
+
+  <img src="tres.jpg" style="width:100%"><!-ASIGNACION DE IMAGEN->
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">4 / 6</div>
+  <img src="cuatro.jpg" style="width:100%"><!-DIMENSION DE LA PANTALLA->
+  
+  <!-CUARTA DIAPOSITIVA->
+</div>
+<div class="mySlides fade"><!-NOMBRE DE SLIDER->
+  <div class="numbertext">5 / 6</div>
+  <img src="cinco.jpg" style="width:100%">
+  
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">6 / 6</div>
+  <img src="seis.jpg" style="width:100%">
+  
+</div>
+<!-MOVIMIENTO DE ANTES Y DESPUES->
+<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+<a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+</div>
+<br>
+
+<div style="text-align:center"><!-ALINEACION DE TEXTO->
+  <span class="dot" onclick="currentSlide(1)"></span> 
+  <!-NUMERO DE BOTONES QUE APARECERAN ABAJO->
+  <span class="dot" onclick="currentSlide(2)"></span> 
+  <span class="dot" onclick="currentSlide(3)"></span> 
+  <span class="dot" onclick="currentSlide(4)"></span>
+   <span class="dot" onclick="currentSlide(5)"></span>
+   <span class="dot" onclick="currentSlide(6)"></span>
+</div>
+<!-FINAL DE DOCUMENTO HTML->
+<!-INICIO DE JAVA SCRIPT
+->
+
+<script src="SLIDER.JS">
+	
+
+</script>
+
+</body>
+</html> 

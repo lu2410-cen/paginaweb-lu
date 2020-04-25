@@ -1,0 +1,43 @@
+*{/*nos referimos a todo*/
+	background-color: rgb(254,195,172);/*agregamos color de fondo*/
+}
+
+h1{
+	background-color: (0,0,0,0);
+	
+}
+
+
+.banner{
+	width: 1080px;
+	height: 1080px;
+	border:10px solid gray;
+	margin: auto;
+
+	background-size: : 100% 100%;
+	animation:banner 10s infinite;
+	animation-direction: alternate;
+
+}
+@keyframes banner{
+	0%,30%{
+		background-image: url(p1.jpg);
+		opacity: 1;
+	}
+	31%,34%{
+		
+		opacity: 0.1;
+	}
+	35%,65%{
+		background-image: url(p2.jpg);
+		opacity: 1;
+	}
+	66%,69%{
+	opacity:0.1;
+}
+	70%,100%{
+		opacity: 1;
+		background-image: url(p3.jpg);/*imagen de la tercera transicion*/
+	}
+	
+   }

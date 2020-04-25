@@ -1,0 +1,88 @@
+/*Se mandan a llamr los diferentes proyectos css, haciendo que este sea el principal y 
+apartir de el se llamaran a los demas*/
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+@import url(menu.css);
+@import url(banner.css);
+@import url(blog.css);
+@import url(info.css);
+
+*{
+margin: 0;
+padding: 0;			/*Modificacion a todo el codigo css*/
+box-sizing:border-box;
+}
+body{
+	font-family: 'Open Sans', sans-serif;			/*se modifica el estilo defiunete de el cuerpo*/
+}
+
+header{
+	width: 100%;
+	height: 50px;
+	background:  #381375 ;			/*Se modifica la etiqueta header*/
+	color: #fff;
+	position: fixed;
+	top: 0;		
+	left: 0;
+	z-index: 100;
+}
+		
+.contenedor{
+width: 98%;			/*Se modificara a la clase contenedor de la etiqueta div*/
+margin: auto;
+
+}	
+
+h1{
+	float: left;		/*Se alinea el titulo*/
+}
+
+header .contenedor{			
+	display: table;			/*Se modifcara a la etiqqueta header y contenedor a la vez*/
+}
+section{
+	width: 100;
+	margin-bottom: 25px;		/*S e modificaran las etiquetas sections*/
+}
+#bienvenidos{
+	text-align: center;			/*Se modificara el id*/
+}
+
+footer .contenedor{
+display: flex;
+flex-wrap: wrap;
+justify-content: center;				/*Se sige modificando a el contenedor*/
+padding-bottom: 25px;
+}
+
+.copy{
+	font-size: 20px;
+
+}
+.sociales{
+	width: 100%;
+    text-align: center; 		/*Se modifican los iconos de las redes sociales*/
+    font-size: 28px;
+}
+.sociales a{
+	background:   #333;
+	text-decoration: none;
+}
+@media (min-width: 768px){
+	.sociales{					/*Se modifica el media creada en la parte de arriba de el documetnto css*/
+		width: auto;
+	}
+	footer .contenedor{
+		justify-content: space-between;		/*Se creara a clase contenedor de el pie de la pagina web*/
+	}
+	}
+
+
+
+@media (min-width: 1024px){
+	.contenedor{
+		width: 1000px;	/*Se modifica el media creada en la parte de arriba de el documetnto css*/
+	}
+
+}
+
+

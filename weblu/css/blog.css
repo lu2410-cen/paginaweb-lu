@@ -1,0 +1,18 @@
+#blog h3,h4{
+text-align: center;		/*Se modificara el blog llamado por el pyoyecto css de estilos*/
+}
+
+
+#blog .contenedor{
+	display: flex;
+	justify-content: center;		/*Se modificara el div de blog*/
+    flex-wrap: wrap;
+}
+#blog article{
+	margin:15px;			/*Se modificaran los articulos de los blog*/
+
+}
+#blog img{
+	width: 100%;
+	max-width: 280px;			/*Por ultimo se modificaran las imagenes*/
+}
